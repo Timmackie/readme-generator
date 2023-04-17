@@ -2,6 +2,8 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown');
+const path = require('path');
+
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -56,7 +58,12 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-  const outputPath = path.join(__dirname, 'output', fileName);
+  const outputDir = './output';
+  if (!fs.existsSync(outputDir)) {
+    fs.mkdirSync(outputDir);
+  }
+
+  const outputPath = path.join(outputDir, fileName);
   fs.writeFile(outputPath, data, (error) => {
     if (error) {
       console.error(error);
@@ -65,6 +72,7 @@ function writeToFile(fileName, data) {
     }
   });
 }
+
 
 
 // TODO: Create a function to initialize app

@@ -1,4 +1,4 @@
-# title
+# test
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -17,11 +17,11 @@ test
 
 ## Installation
 
-testing
+test
 
 ## Usage
 
-mine
+test
 
 
 ## License
@@ -31,12 +31,12 @@ This project is licensed under the MIT license. See the [LICENSE](LICENSE) file 
 
 ## Contributing
 
-use good
+test
 
 ## Tests
 
-click stuff
+test
 
 ## Questions
 
-If you have any questions about the repo, open an issue or contact [timmackie](https://github.com/timmackie) directly at timmackie117@gmail.com.
+If you have any questions about the repo, open an issue or contact [test](https://github.com/test) directly at test.
